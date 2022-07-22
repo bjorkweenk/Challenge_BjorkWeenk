@@ -1,0 +1,43 @@
+.clients {
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: baseline;
+        align-content: flex-start;
+    
+    
+}
+
+.bol {
+    background-image:url(../../../public/Images/bol.png);
+    background-repeat: no-repeat;
+    height: 568px;
+    width: 720px;
+    color: white;
+}
+
+.kempen {
+    background-image: url(../../../public/Images/kempen.png);
+    background-repeat: no-repeat;
+    height: 568px;
+    width: 720px;
+    color: white;
+}
+
+.philips {
+    background-image: url(../../../public/Images/philips.png);
+    background-repeat: no-repeat;
+    height: 568px;
+    width: 720px;
+    color: white;
+}
+
+.gemeentemuseum {
+    background-image: url(../../../public/Images/gemeentemuseum.png);
+    background-repeat: no-repeat;
+    height: 568px;
+    width: 720px;
+    color: white;
+}
