@@ -4,7 +4,7 @@ import "./ClientCard.css"
 class ClientCard extends Component {
     render() {
         return (
-            <>
+            <div className="ClientCard">
 
                 <div class="container">
                     <div class="grid-1">
@@ -61,25 +61,23 @@ class ClientCard extends Component {
                         <h6> <img src="./round.png"></img> Read more </h6></div>
                 </section>
 
-                <section>
-                    <div className='Microsoft-Oneil'>
-                        <h5> AMAZON </h5>
-                        <p> Starting with delivering through drones</p>
+                <section className="Florensis-Microsoft-Oneill">
+                    <div className="Florensis"><h5> FLORENSIS</h5>
+                        <p> Rethinking the entire online ecosystem</p>
+                        <h6> <img src="./round.png"></img> Read more </h6> </div>
+                    <div className='Microsoft-Oneill'>
+                        <h5> Microsoft </h5>
+                        <p> Tapping into Ireland<span dangerouslySetInnerHTML={{ __html: "'" }}></span>s unique gaming <br></br> culture and bringing a fresh flavour to their Xbox social media <br></br>channels</p>
                         <h6> <img src="./round.png"></img> Read more </h6>
                         <hr></hr>
                         <h5> O'NNEIL </h5>
-                        <p> Integrating existing content into O<span dangerouslySetInnerHTML={{ __html: "'" }}></span>Neills<span dangerouslySetInnerHTML={{ __html: "'" }}></span>s new e-commerce platform</p>
+                        <p> Integrating existing content into O<span dangerouslySetInnerHTML={{ __html: "'" }}></span>Neills<span dangerouslySetInnerHTML={{ __html: "'" }}></span>s new <br></br>e-commerce platform</p>
                         <h6> <img src="./round.png"></img> Read more </h6>
                         <hr></hr>
                         <h5> Microsoft </h5>
-                        <p> Tapping into Ireland<span dangerouslySetInnerHTML={{ __html: "'" }}></span>s unique gaming culture and <br></br> bringing a fresh flavour to their Xbox social media <br></br>channels</p></div>
+                        <p> Tapping into Ireland<span dangerouslySetInnerHTML={{ __html: "'" }}></span>s unique gaming culture and bringing a fresh flavour to their Xbox social media channels</p></div>
                     <h6> <img src="./round.png"></img> Read more </h6>
                     <hr></hr>
-
-                    <div className="Florensis"><h5> FLORENSIS</h5>
-                        <h3> Rethinking the entire online ecosystem</h3>
-                        <h6> <img src="./round.png"></img> Read more </h6> </div>
-
                 </section>
 
 
@@ -125,8 +123,8 @@ class ClientCard extends Component {
                     <br />
                     MATTIJS TEN DRINK - CEO, TRANSAVIA
                 </article>
-
-            </>
+<br></br>
+            </div>
         );
     }
 }

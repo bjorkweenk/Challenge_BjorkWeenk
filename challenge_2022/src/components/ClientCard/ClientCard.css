@@ -1,3 +1,6 @@
+.ClientCard {
+    padding-bottom: 134px;
+}
 .container {
     display: -ms-grid;
     display: grid;
