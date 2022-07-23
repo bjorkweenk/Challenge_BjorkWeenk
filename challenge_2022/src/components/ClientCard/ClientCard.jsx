@@ -39,11 +39,11 @@ class ClientCard extends Component {
                         <h6> <img src="./round.png"></img> Read more </h6> </div>
                     <div className='Microsoft-Oneill'>
                         <h5> Microsoft </h5>
-                        <p> Tapping into Ireland<span dangerouslySetInnerHTML={{ __html: "'" }}></span>s unique gaming culture and bringing a fresh flavour to their Xbox social media channels</p>
+                        <p> Tapping into Ireland<span dangerouslySetInnerHTML={{ __html: "'" }}></span>s unique gaming <br></br> culture and bringing a fresh flavour to their Xbox social media <br></br>channels</p>
                         <h6> <img src="./round.png"></img> Read more </h6>
                         <hr></hr>
                         <h5> O'NNEIL </h5>
-                        <p> Integrating existing content into O<span dangerouslySetInnerHTML={{ __html: "'" }}></span>Neills<span dangerouslySetInnerHTML={{ __html: "'" }}></span>s new e-commerce platform</p>
+                        <p> Integrating existing content into O<span dangerouslySetInnerHTML={{ __html: "'" }}></span>Neills<span dangerouslySetInnerHTML={{ __html: "'" }}></span>s new <br></br>e-commerce platform</p>
                         <h6> <img src="./round.png"></img> Read more </h6>
                         <hr></hr>
                         <h5> Microsoft </h5>
@@ -53,8 +53,12 @@ class ClientCard extends Component {
                 </section>
 
                 <section className="section-clients">
-                    <div className='Belighting'> </div>
-                    <div className='tui'></div>
+                    <div className='Belighting'><h5> BE LIGHTINING</h5>
+                        <p> Delivering clarity on a global scale</p>
+                        <h6> <img src="./round.png"></img> Read more </h6> </div>
+                    <div className='tui'> <h5> TUI</h5>
+                        <p> Swipe to find your next holiday destination</p>
+                        <h6> <img src="./round.png"></img> Read more </h6></div>
                 </section>
 
                 <section>
@@ -68,9 +72,10 @@ class ClientCard extends Component {
                         <h6> <img src="./round.png"></img> Read more </h6>
                         <hr></hr>
                         <h5> Microsoft </h5>
-                        <p> Tapping into Ireland<span dangerouslySetInnerHTML={{ __html: "'" }}></span>s unique gaming culture and bringing a fresh flavour to their Xbox social media channels</p></div>
+                        <p> Tapping into Ireland<span dangerouslySetInnerHTML={{ __html: "'" }}></span>s unique gaming culture and <br></br> bringing a fresh flavour to their Xbox social media <br></br>channels</p></div>
                     <h6> <img src="./round.png"></img> Read more </h6>
                     <hr></hr>
+
                     <div className="Florensis"><h5> FLORENSIS</h5>
                         <h3> Rethinking the entire online ecosystem</h3>
                         <h6> <img src="./round.png"></img> Read more </h6> </div>
@@ -104,9 +109,9 @@ class ClientCard extends Component {
                     </div>
                 </div>
 
-                <article> “Dept helped us tell our story through a bold new identity and a robust online experience. To the tone of 60% growth in online bookings in just one month””
+                <article className="article-transavia"> “Dept helped us tell our story through a bold new identity and a robust online experience. To the tone of 60% <br></br>growth in online bookings in just one month”
                     <br />
-                    MATTIJS TEN DRINK - CEO, TRANSAVIA
+                    <p className="CEO-transavia">MATTIJS TEN DRINK - CEO, TRANSAVIA </p>
                 </article>
 
                 <section className="section-clients">

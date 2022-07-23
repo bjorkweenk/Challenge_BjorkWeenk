@@ -20,11 +20,15 @@
 .grid-1 {
     background-image: url(../../../public/Images/bol.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    width: 720px;
+    height: 568px;
     -ms-grid-column: 1;
     grid-column-start: 1;
     grid-column-end: 3;
     -ms-grid-row: 1;
     grid-row: 1;
+    text-align: start;
 }
 
 @media screen and (max-width: 60em) {
@@ -40,11 +44,15 @@
 .grid-2 {
     background-image: url(../../../public/Images/kempen.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    width: 720px;
+    height: 568px;
     -ms-grid-column: 3;
     grid-column-start: 3;
     grid-column-end: 5;
     -ms-grid-row: 1;
     grid-row: 1;
+    text-align: start;
 }
 
 @media screen and (max-width: 60em) {
@@ -60,11 +68,15 @@
 .grid-3 {
     background-image: url(../../../public/Images/philips.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    width: 720px;
+    height: 568px;
     -ms-grid-column: 1;
     grid-column-start: 1;
     grid-column-end: 3;
     -ms-grid-row: 2;
     grid-row: 2;
+    text-align: start;
 }
 
 @media screen and (max-width: 60em) {
@@ -80,11 +92,15 @@
 .grid-4 {
     background-image: url(../../../public/Images/gemeentemuseum.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    width: 720px;
+    height: 568px;
     -ms-grid-column: 3;
     grid-column-start: 3;
     grid-column-end: 5;
     -ms-grid-row: 2;
     grid-row: 2;
+    text-align: start;
 }
 
 @media screen and (max-width: 60em) {
@@ -105,50 +121,117 @@
 /* text */
 
 h5 {
-    font-size: 10px; 
+    font-size: 10px;
     color: white;
     font-weight: 400px;
     line-height: 10px;
     font-family: 'Open Sans';
+    text-align: start;
+    margin-left: 62px;
+    margin-right: 32px;
 }
 
 p {
-    font-size: 25px;
+    font-size: 10px;
     color: white;
     font-weight: 400;
-    line-height: 25px;
     font-family: 'Open Sans';
+    width: 412px;
+    text-align: start;
+    margin-left: 62px;
+    margin-right: 32px;
 }
 
 h6 {
     color: white;
     line-height: 10px;
     font-weight: 400;
-    font-size: 10px;
+    font-size: 8px;
+    text-align: start;
+    margin-left: 62px;
+    margin-right: 32px;
 }
 
 /* section clients Florensis & Microsoft, O'NEILL */
 .Florensis {
-    background-image:url(../../../public/Images/florensis.png);
+    background-image: url(../../../public/Images/florensis.png);
     height: 568px;
     width: 964px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    text-align: start;
 
 }
 
 .Microsoft-Oneill {
     background-color: black;
+    height: 568px;
+
 }
 
 .Florensis-Microsoft-Oneill {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: flex-start;
-	align-content: center;
-    height: 568px ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: center;
+    height: 568px;
+
 }
 
+/*clients article*/
+
+.article-transavia {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 1312px;
+    height: 132px;
+    font-weight: 400px;
+    line-height: 15px;
+    font-size: 15px;
+    font-family: 'Open Sans';
+    padding-top: 50px;
+
+}
+
+.CEO-transavia {
+    font-size: 10px;
+}
+
+article {
+    background-color: black;
+    color: white;
+    text-align: start;
+
+}
+
+/* belighting & tui*/
+
+.section-clients {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+
+}
+
+.Belighting {
+    background-image: url(../../../public/Images/building.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 720px;
+    height: 568px;
+}
+
+.tui {
+    background-image: url(../../../public/Images/graphic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 720px;
+    height: 568px;
+}
