@@ -15,7 +15,7 @@ class Footer extends Component {
                     <li className="list-item">CONTACT</li>
                 </ul>
 
-                <hr></hr>
+                <hr/>
                 <section className="Term-Section">
                 <p className="TextFooter">Chamber of Commerce: 63464101</p>
                 <p className="TextFooter">VAT: NL 8552.47.502.B01</p>

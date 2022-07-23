@@ -1,0 +1,46 @@
+
+.section-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+
+.btn {
+    background-color: white;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    border: 1px solid black;
+
+}
+
+.text-form {
+    font-family: 'Open Sans';
+    font-weight: 400px;
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: normal;
+    text-align: start;
+    margin-left: 48px;
+}
+
+.form {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: center;
+    margin-left: 40px;
+}
+
+hr {
+    border: none;
+    background-color: #DDDDDD;
+    height: 0.5px;
+    width: 295px;
+}

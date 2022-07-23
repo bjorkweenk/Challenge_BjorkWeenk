@@ -5,14 +5,23 @@ class Form extends Component {
     render() {
         return (
             <div>
-                <section>
-                    <h2>QUESTION? <br></br>
+                <section className="section-form">
+                    <h2 className="text-form">QUESTION? <br></br>
                         WE ARE HERE <br></br> TO HELP! </h2>
+
+                        <div className="form">
                         <p> NAME</p>
+                       <hr></hr>
                         <p> MESSAGE</p>
-                        <p> EMAIL</p>
-                       <button> SEND </button>
-                </section>
+                        <hr></hr>
+                        </div>
+
+                        <p> EMAIL </p>
+                        <hr></hr>
+
+                        </section>
+                       <button className="btn"> SEND </button>
+              
             </div>
         );
     }
