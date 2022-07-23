@@ -4,7 +4,9 @@ import Navbar from './components/NavbarMenu/Navbar';
 import Menubar from './components/MenuBar/MenuBar';
 import Landing from './components/LandingPicture/Landing';
 import ClientCard from './components/ClientCard/ClientCard';
-
+import ClientsLogo from './components/ClientsLogo/ClientsLogo';
+import Form from './components/Form/Form';
+import Footer from './components/Footer/Footer';
 
 function App() {
 
@@ -16,6 +18,9 @@ function App() {
       <Navbar isOpen={isMenuOpen}/>
       <Landing/> 
       <ClientCard />
+      <ClientsLogo/>
+      <Form/>
+      <Footer/>
     </div>
   );
 

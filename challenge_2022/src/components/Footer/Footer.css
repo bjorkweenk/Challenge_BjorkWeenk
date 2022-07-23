@@ -1,0 +1,32 @@
+footer {
+    background-color: black;
+    color: white;
+}
+
+.TextFooter {
+    font-size: 16px;
+    font-family:'Open Sans';
+    font-weight: 400;
+    line-height: 18px;
+    color:#808080;
+}
+
+.ul-list {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: flex-end;
+	align-content: stretch;
+    padding: 20px;
+
+}
+.Term-Section {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: flex-end;
+	align-content: stretch;
+    padding: 20px;
+}
