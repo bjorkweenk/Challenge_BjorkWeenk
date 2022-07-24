@@ -1,39 +1,48 @@
-import React from "react";
+import React, { Component } from 'react';
 import "./MenuBar.css"
 
+function MenuBar({ isOpen }) {
 
-function Menubar({ setMenuStatus }) {
-  return (
-
-    <div className="Navbar">
-      <img className="NavLogo" src="./DEPTwit.png" width={88.04} height={25} />
-
-      <ul className="ul-list">
-        <li className="list-items"> WORK </li>
-        <li className="list-items"> CULTURE </li>
-        <li className="list-items"> SERVICES </li>
-        <li className="list-items"> INSIGHTS </li>
-        <li className="list-items"> CAREERS </li>
-        <li className="list-items"> CONTACT </li>
-        <li className="list-items"> <img src="./vectordots.png" width={30.4} height={8}/></li>
-      </ul>
-
+    return (
+        <div id="nav" className={isOpen ? "open" : ""}>
+  
+           <div class="nav-block">
+            <ul>
+            <p> COUNTRIES </p>
+            <li> GLOBAL</li>
+            <li> NETHERLANDS</li>
+            <li> UNITED STATES</li>
+            <li> IRELAND</li>
+            <li> UNITED KINGDOM</li>
+            <li> GERMANY</li>
+            <li> SWITZERLAND</li>
+            </ul>
 
 
-      {/* <div className="menuButton">
-        <button
-          type="button"
-          onClick={() => {
-            setMenuStatus(true);
-          }}
-        >
-          MENU
-        </button>
-        </div>*/}
+            <ul>
+                <li className="nav-items"><a href="/home"> HOME </a> </li>
+                <hr class="Nav-hr"></hr>
+                <li className="nav-items"><a href="work">WORK</a> </li>
+                <hr class="Nav-hr"></hr>
+                <li className="nav-items"><a href="culture"> CULTURE</a> </li>
+                <hr class="Nav-hr"></hr>
+                <li className="nav-items"><a href="partners"> PARTNERS </a> </li>
+                <hr class="Nav-hr"></hr>
+                <li className="nav-items"> <a href="stories">STORIES </a> </li>
+                <hr class="Nav-hr"></hr>
+                <li className="nav-items"> <a href="careers">CAREERS </a> </li>
+                <hr class="Nav-hr"></hr>
+                <li className="nav-items"> <a href="events">EVENTS </a> </li>
+                <hr class="Nav-hr"></hr>
+                <li className="nav-items"><a href="contact">CONTACT </a> </li>
+                <hr class="Nav-hr"></hr>
+            </ul>
 
-    </div>
-  );
+        </div>
+        </div> 
+
+    );
 }
 
 
-export default Menubar;
+export default MenuBar;

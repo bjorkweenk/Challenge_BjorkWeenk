@@ -1,0 +1,58 @@
+.Navbar {
+    background-color: black ;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: baseline;
+	align-content: stretch;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+}
+
+.Navbar2 {
+  display:none; 
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    margin-top: 40px; }
+
+@media screen and (max-width: 760px) {
+    .Navbar {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 760px) {
+    .Navbar2 {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: baseline;
+  align-content: stretch;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  height: 90px;
+ 
+    }
+  }

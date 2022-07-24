@@ -30,3 +30,24 @@ footer {
 	align-content: stretch;
     padding: 20px;
 }
+
+.FooterMobile {
+    display: none;
+}
+
+@media screen and (max-width: 760px) {
+    .ul-list {
+      display: none;
+    }
+    .Term-Section {
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: 760px) {
+    .FooterMobile{
+        display: flex;
+        flex-direction: column;
+    }
+    
+  }

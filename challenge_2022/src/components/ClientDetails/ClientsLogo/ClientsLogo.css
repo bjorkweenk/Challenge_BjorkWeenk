@@ -1,0 +1,59 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color:black(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+.clientslogo {
+    background-color: black;
+}
+
+.grid-container1 {
+  display: none;
+}
+
+
+@media screen and (max-width: 760px) {
+  .clientslogo1 {
+    display: flex;
+    background-color: black;
+    overflow: hidden;
+    height: 800px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-item1{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+  }
+  }
+
+  @media screen and (max-width: 760px) {
+    .clientslogo {
+      display: none;
+      background-color: black;
+    }
+    }
+  
+    @media screen and (max-width: 360px) {
+      .clientslogo2 {
+        display: flex;
+        background-color: black;
+        overflow: hidden;
+        height: 800px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 5px;
+      
+      }
+    }

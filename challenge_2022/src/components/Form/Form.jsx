@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Form.css'
+import Loader from '../Loader/Loader';
 
 class Form extends Component {
     render() {
@@ -24,6 +25,7 @@ class Form extends Component {
               
             </div>
         );
+        <Loader/>
     }
 }
 

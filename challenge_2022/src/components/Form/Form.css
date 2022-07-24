@@ -44,3 +44,28 @@ hr {
     height: 0.5px;
     width: 295px;
 }
+
+@media screen and (max-width: 760px) {
+    .text-form{
+        font-size: 20px;
+        line-height: 20px;  
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    .btn {
+        background-color: white;
+        border-radius: 20px;
+        width: 100px;
+        height: 20px;
+        border: 1px solid black;
+        margin-left: 300px;
+        margin-top: 20px;
+        
+    }
+    
+  }
+
+  
