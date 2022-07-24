@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import "./Landing.css"
-import Loader from '../Loader/Loader';
 
 class Landing extends Component {
     render() {
@@ -18,7 +17,7 @@ class Landing extends Component {
                 </section>
             </div>
         );
-        <Loader/>
+       
     }
 }
 

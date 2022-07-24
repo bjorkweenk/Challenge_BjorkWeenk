@@ -1,7 +1,8 @@
 /*gid container*/
-.container {display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-columns: 1fr 1fr;
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     width: 100vh;
 }
 
@@ -42,51 +43,57 @@
 }
 
 /*mobile size*/
-@media screen and (max-width: 760px){ 
-  .container {
-       display: flex;
-        flex-direction: column;
+@media screen and (max-width: 760px) {
+    .container {
+        display: grid; 
+        grid-auto-columns: 1fr; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+          "."
+          "."; 
+      }
+    
+
+    .bol {
+        background-image: url(../../../../public/Images/bol.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 484.5px;
+        width: 410px;
+        margin-bottom: -135px;
+    }
+
+
+    .kempen {
+        background-image: url(../../../../public/Images/kempen.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 484.5px;
+        width: 410px;
+        margin-bottom: -135px;
+    }
+
+
+    .philips {
+        background-image: url(../../../../public/Images/philips.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 484.5px;
+        width: 410px;
+        margin-bottom: -135px;
+    }
+
+    .gemeentemuseum {
+        background-image: url(../../../../public/Images/gemeentemuseum.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 484.5px;
+        width: 410px;
+        margin-bottom: -135px;
+    }
+
 }
-
-.bol {
-    background-image: url(../../../../public/Images/bol.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 484.5px;
-    width: 410px;
-    margin-bottom: -135px;
-}
-
-
-.kempen {
-    background-image: url(../../../../public/Images/kempen.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 484.5px;
-    width: 410px;
-    margin-bottom: -135px;
-}
-
-
-.philips {
-    background-image: url(../../../../public/Images/philips.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 484.5px;
-    width: 410px;
-    margin-bottom: -135px;
-}
-
-.gemeentemuseum {
-    background-image: url(../../../../public/Images/gemeentemuseum.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 484.5px;
-    width: 410px;
-    margin-bottom: -135px;
-}
-     
-  }
 
 /*text */
-

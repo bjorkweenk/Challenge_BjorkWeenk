@@ -1,0 +1,39 @@
+.container7{
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". ."; 
+  }
+
+.libertyglobal {
+    background-image: url(../../../../public/Images/libertyglobal.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 568px;
+    width: 720px;
+}
+
+.arla {
+    background-image: url(../../../../public/Images/arla.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 568px;
+    width: 720px;
+}
+
+/*mobile size*/
+@media screen and (max-width: 760px){ 
+    .container7 {
+        display: grid; 
+        grid-auto-columns: 1fr; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+          "."
+          "."; 
+      }
+    }

@@ -7,7 +7,6 @@
 	align-items: baseline;
 	align-content: stretch;
     text-overflow: ellipsis;
-    overflow: hidden;
 }
 
 li {
