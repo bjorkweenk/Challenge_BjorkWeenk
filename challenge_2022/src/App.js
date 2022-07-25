@@ -1,6 +1,5 @@
 import './App.css';
 
-
 import NavBar from './components/NavBar/NavBar';
 import Landing from './components/LandingPicture/Landing';
 import ClientsLogo from './components/ClientDetails/ClientsLogo/ClientsLogo';
@@ -21,6 +20,7 @@ import React, { useState } from 'react';
 
 
 function App () {
+
 
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
     return (

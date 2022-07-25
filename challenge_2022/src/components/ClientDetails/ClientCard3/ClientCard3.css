@@ -1,3 +1,5 @@
+
+
 .container5 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -49,45 +51,6 @@
           "."
           "."; 
       }
-    
-
-      .chocomel {
-        background-image: url(../../../../public/Images/chocomel.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        height: 484.5px;
-        width: 410px;
-        margin-bottom: -135px;
-        
-    }
-
-
-    .jbl {
-        background-image: url(../../../../public/Images/jbl.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        height: 484.5px;
-        width: 410px;
-        margin-bottom: -135px;
-    }
-
-
-    .zalando {
-        background-image: url(../../../../public/Images/zalando.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        height: 484.5px;
-        width: 410px;
-        margin-bottom: -135px;
-    }
-
-    .koninklijkebibliotheek {
-        background-image: url(../../../../public/Images/koninklijkebibliotheek.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        height: 484.5px;
-        width: 410px;
-        margin-bottom: -135px;
-    }
+ 
 
 }

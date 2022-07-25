@@ -53,4 +53,9 @@ li { color: white ;}
     p {
         font-size: 12px;
     }
+
+    .nav-block1{
+      margin-left: -20px;
+    }
+
   }

@@ -1,6 +1,6 @@
 .Navbar {
-    background-color: black ;
-    display: flex;
+  background-color: black ;
+  display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-evenly;
@@ -9,10 +9,12 @@
     text-overflow: ellipsis;
 }
 
+.NavLogo {
+  margin-left: 32px;
+}
 li {
     list-style-type: none;
 }
-
 
 a {
     text-decoration: none;
@@ -32,7 +34,8 @@ button, input[type="submit"], input[type="reset"] {
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
-    margin-top: 40px; }
+  margin-top: 40px; }
+
 
 @media screen and (max-width: 760px) {
     .Navbar {
@@ -52,6 +55,14 @@ button, input[type="submit"], input[type="reset"] {
   text-overflow: ellipsis;
   overflow: hidden;
   height: 90px;
- 
+  margin-left: -120px;
+    }
+
+    .menuButton {
+      color: black;
+    }
+
+    .nav {
+      width: 410;
     }
   }

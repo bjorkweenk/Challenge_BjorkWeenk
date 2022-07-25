@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     width: 964px;
     height: 568px;
+    
 }
 
 .container2 {
@@ -11,8 +12,14 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: black;
+    padding-left: 20px;  
 }
 
+.Microsoft-Oneill {
+    width: 320px;
+    height: 200px;
+
+}
 .florensis {
     color: white;
 }
@@ -30,13 +37,15 @@ h5 {
         height: 590px;
     }
 
-    .container2 {
-            display: flex; 
-            flex-direction: column;
-            
-    }
-
     .grid-2 {
-        margin-top: -300px;
-    }
+        display: grid; 
+        grid-auto-columns: 1fr; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+          "."
+          "."; 
+      }
+
 }

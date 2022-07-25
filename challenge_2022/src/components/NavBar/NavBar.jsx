@@ -6,9 +6,9 @@ function NavBar ({ setMenuStatus }){
       <div>
         <div className="Navbar">
 
-
+        <img className="NavLogo" src="./DEPTwit.png" width={88.04} height={25} />
+    
           <ul className="ul-list">
-          <img className="NavLogo" src="./DEPTwit.png" width={88.04} height={25} />
             <li><a href="/work" className="list-items">WORK </a> </li>
             <li><a href="/culture" className="list-items"> CULTURE  </a> </li>
             <li><a href="/services" className="list-items"> SERVICES  </a> </li>

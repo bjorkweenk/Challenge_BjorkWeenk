@@ -16,3 +16,14 @@
     text-align: start;
     margin-left: 32px;
 }
+
+@media screen and (max-width: 760px) {
+    .container8 {
+        width: 600px;
+    }
+
+    .grid-11 {
+        width: 350px;
+        margin-left: 10px;
+    }
+}

@@ -6,7 +6,7 @@ class Landing extends Component {
         return (
             <div>
                 <section className='SectionLanding'>
-                    <div className='SectionText'>
+                    <div className='SectionText' class="landing">
                     <h4 className="TextLanding"> WORK</h4>
                     <h5 className='TextLanding2'> A selection of projects that <b>pioneer <br></br> tech</b> and <b>marketing</b> to help brands <br></br> stay ahead. </h5>
                     </div>

@@ -4,7 +4,13 @@
     background-image: url("../../../public/office2.png");
     background-repeat: no-repeat;
     height: 628px;
+    overflow: hidden ;
    
+}
+
+.landing {
+    margin-left: 30px;
+    margin-top: 400px;
 }
 
 .TextLanding {
@@ -62,3 +68,12 @@
     margin-right: 760px;
 }
 
+@media screen and (max-width: 760px) {
+    .TextLanding2 {
+        font-size: 20px;
+    }
+    .SectionShowBar>h4:first-child{
+        margin-right: 30px;
+    }
+
+}

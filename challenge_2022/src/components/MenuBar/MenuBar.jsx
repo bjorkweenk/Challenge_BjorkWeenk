@@ -19,7 +19,7 @@ function MenuBar({ isOpen }) {
             </ul>
 
 
-            <ul>
+            <ul class="nav-block1">
                 <li className="nav-items"><a href="/home"> HOME </a> </li>
                 <hr class="Nav-hr"></hr>
                 <li className="nav-items"><a href="work">WORK</a> </li>
